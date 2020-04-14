@@ -1,7 +1,8 @@
-void setup(){                                                                   #初始化
-  size(1000,700);                                                               #页面大小是1000×700
+void setup(){
+  size(1000,700);
   noStroke();                                                                   
 }
+/*初始化：将舞台大小设置为1000×700*/
 void draw(){
   fill(mouseX/4, mouseY/3, pmouseX-pmouseY);
   ellipse(mouseX, mouseY, mouseX/4-pmouseY/4, mouseX/4+pmouseY/4);
