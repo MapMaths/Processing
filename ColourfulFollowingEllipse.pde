@@ -11,3 +11,6 @@ void draw(){                                                       //开始绘�
     background(mouseY/3, mouseX/4, pmouseY-pmouseX/2);             //重置背景
   }
 }
+
+                                                             //————本作品由MapMaths授权，未经允许，不可转载！
+/
