@@ -1,6 +1,6 @@
-void setup(){
-  size(1000,700);
-  noStroke();
+void setup(){                                                                   #初始化
+  size(1000,700);                                                               #页面大小是1000×700
+  noStroke();                                                                   
 }
 void draw(){
   fill(mouseX/4, mouseY/3, pmouseX-pmouseY);
